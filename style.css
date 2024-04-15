@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    /* padding: 40px; */
+    height: 300px;
+    width: 35%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+.content .writer {
+    float: right;
+    margin-right: 20px;
+    font-size: 18px;
+    color: brown;
+}
+
+.btn button{
+    float: left;
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.content .quote {
+    font-size: 25px;
+}
+
+.quote-container{
+    min-height: 140px;
+    max-height: 140px;
+}
+
+.content {
+    margin-top: 40px;
+    line-height: 1.5;
+    text-align: center;
+}
